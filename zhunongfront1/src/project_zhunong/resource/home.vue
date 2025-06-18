@@ -1,9 +1,9 @@
 <script setup>
 import {onMounted, ref} from 'vue'
-import Login from '/src/project_zhunong/other/login.vue'  // 假设你有 Login 组件
+import Login from '/src/project_zhunong/other/login.vue'  
 import Register from '/src/project_zhunong/other/register.vue'
-import router from "@/router.js";  // 假设你有 Register 组件
-const loginSectionView = ref('welcome') // 初始显示的是欢迎页面
+import router from "@/router.js";  
+const loginSectionView = ref('welcome') 
 const products = ref([])
 // 切换按钮方法
 const goLogin = () => {
