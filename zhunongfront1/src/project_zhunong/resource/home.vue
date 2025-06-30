@@ -109,7 +109,7 @@ onMounted(()=>{
       </el-card>
     </div>
     <router-view></router-view>
-    <!-- 精选农产品（未登录底部展示） -->
+    <!-- 精选农产品 -->
     <div class="section" >
       <h2 class="section-title">🍀 精选农产品</h2>
       <el-row :gutter="20">
@@ -140,7 +140,7 @@ onMounted(()=>{
 <style scoped>
 .home-container {
   padding: 20px;
-  background-image: url('src/assets/jpg1.png'); /* 替换为你的背景图片路径 */
+  background-image: url('src/assets/jpg1.png'); 
   background-size: cover;
   background-position: center;
 }
